@@ -26,7 +26,7 @@ int main() {
             prev = curr;
             blast++;
         }
-        // now calc left side
+        // reset vars and calc left side
         prev = cows[i], index = i, blast = 1;
         while (true) {
             curr = prev;
