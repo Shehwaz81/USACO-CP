@@ -2,12 +2,28 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+      "preLaunchTask": "build active file"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
+      "type": "cppvsdbg",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/shehwaz818/cp/usaco",
-      "program": "/Users/shehwaz818/cp/usaco/build/Debug/outDebug"
+      "stopAtEntry": false,
+      "console": "externalTerminal",
+      "cwd": "c:/Users/shehw/USACO-CP/Silver/prefix_sums",
+      "program": "c:/Users/shehw/USACO-CP/Silver/prefix_sums/build/Debug/outDebug"
     }
   ]
 }
