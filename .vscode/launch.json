@@ -1,48 +1,48 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Debug active file (LLDB)",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
-            "miDebuggerPath": "/usr/bin/lldb",
-            "preLaunchTask": "build active file"
-        },
-        {
-            "name": "C/C++ Runner: Debug Session",
-            "type": "lldb",
-            "request": "launch",
-            "args": [],
-            "cwd": "/Users/shehwaz818/USACO-CP/Silver/prefix_sums",
-            "program": "/Users/shehwaz818/USACO-CP/Silver/prefix_sums/build/Debug/outDebug"
-        },
-        {
-            "name": "C/C++: clang++ build and debug active file",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
-            "preLaunchTask": "C/C++: clang++ build active file"
-        }
-    ],
-    "compounds": [
-        {
-            "name": "Build and Debug Active File",
-            "configurations": [
-                "Debug active file (LLDB)"
-            ]
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug active file (LLDB)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "miDebuggerPath": "/usr/bin/lldb",
+      "preLaunchTask": "build active file"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/shehwaz818/USACO-CP/Silver/search_sort",
+      "program": "/Users/shehwaz818/USACO-CP/Silver/search_sort/build/Debug/outDebug"
+    },
+    {
+      "name": "C/C++: clang++ build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: clang++ build active file"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Build and Debug Active File",
+      "configurations": [
+        "Debug active file (LLDB)"
+      ]
+    }
+  ]
 }
