@@ -57,6 +57,13 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
-    "vector": "cpp"
+    "vector": "cpp",
+    "iostream": "cpp"
+  },
+  "files.exclude": {
+    "**/*.dSYM": true,
+    "**/*.o": true,
+    "**/*.out": true,
+    "**/.DS_Store": true
   }
 }
