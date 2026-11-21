@@ -7,3 +7,4 @@
 *.out
 *.o
 .DS_Store
+build/
